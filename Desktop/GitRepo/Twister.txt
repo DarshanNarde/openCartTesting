@@ -7,6 +7,7 @@
 
 <h1>Twist your tongue a little!</h1>
 
-<p> She sells sea shells on the sea shore.</P?
+<p> She sells sea shells on the sea shore.</P>
+<p> Peter piper picked a peck of pickled peppers</p>
 </body>
 </html>
