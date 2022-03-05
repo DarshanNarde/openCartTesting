@@ -1,0 +1,74 @@
+[General]
+Type=Tulip
+RunType=ActiveScript
+DefaultCfg=default.cfg
+DefaultRunLogic=default.usp
+ParamRightBrace=>
+ParamLeftBrace=<
+NewFunctionHeader=1
+MinorVersion=0
+MajorVersion=6	
+DevelopTool=AQT
+
+[Actions]
+Action0=Action0\Script.mts
+Action1=Action1\Script.mts
+Copy of Action1=Action3\Script.mts
+Copy 2 of Action1=Action6\Script.mts
+Copy 3 of Action1=Action7\Script.mts
+
+[VuserProfiles]
+Profiles=Default Profile
+
+[CfgFiles]
+Default Profile=default.cfg
+
+[RunLogicFiles]
+Default Profile=default.usp
+
+[Rendezvous]
+
+[Transactions]
+Searching_Product=
+addToCartModule=
+SuccessMsg=
+shopping_cart=
+Account_Login=
+
+[ActiveScript]
+Lang=none
+
+[TulipInfo]
+ProductName=Micro Focus UFT One
+Version=2021
+
+[TulipAddins]
+AI=
+Database=
+File Content=
+Insight=
+Windows Applications=
+TEA=
+Web=
+XML=
+
+[ExtraFiles]
+Test.tsp=
+Default.xls=
+Default.xlsx=
+Parameters.mtr=
+Action0\Script.mts=
+Action0\Resource.mtr=
+Action0\ObjectRepository.bdb=
+Action1\Script.mts=
+Action1\Resource.mtr=
+Action1\ObjectRepository.bdb=
+Action3\Script.mts=
+Action3\Resource.mtr=
+Action3\ObjectRepository.bdb=
+Action6\Script.mts=
+Action6\Resource.mtr=
+Action6\ObjectRepository.bdb=
+Action7\Script.mts=
+Action7\Resource.mtr=
+Action7\ObjectRepository.bdb=

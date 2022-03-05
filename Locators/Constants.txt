@@ -1,0 +1,85 @@
+﻿'HOME PAGE
+
+'Check visibilty for Company telephone number
+
+	Company_Number="XPath:=//LI/SPAN[normalize-space()='123456789']"
+
+'Resgister New Account
+	Register_Link="XPath:=//body/nav[@id='top']/div[1]/div[2]/ul[1]/li[2]/ul[1]/li[1]/a[1]"
+	First="html id:=input-firstname"
+	Name="XPath:=//input[@id='input-firstname']"
+	Agree_Check_box="XPath:= //body/div[@id='account-register']/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]"
+	Click_For_Register="XPath:=//body/div[@id='account-register']/div[1]/div[1]/form[1]/div[1]/div[1]"         
+	Register_Button="XPath:=//body/div[@id='account-register']/div[1]/div[1]/form[1]/div[1]/div[1]/input[2]" 
+	Continue_Button="XPath:=//a[contains(text(),'Continue')]"
+	Logout_Button="XPath:=//body/nav[@id='top']/div[1]/div[2]/ul[1]/li[2]/ul[1]/li[5]/a[1]"
+
+
+'Acount Login
+	Login_Link="XPath:=//body/nav[@id='top']/div[1]/div[2]/ul[1]/li[2]/ul[1]/li[2]/a[1]" 
+	Login_Click="XPath:=//body/div[@id='account-login']/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/input[1]"
+
+
+'**********************************************************************************
+
+
+'SEARCH PAGE
+	Dim  gc,gp
+	'curDate=Date
+	Set AutomationBrowser=Browser("name:=.*")
+	Set AutomationPage=Page("title:=.*")
+
+
+'Seaeching Product
+	CallBrowser="name:=Search - .*"
+	allPage="title:=Search - .*"
+	Category="Class Name:=WebList"
+	Gridview="class:=btn btn-default active"
+	Sortlist="class:=form-control"
+	ProductImage="Class Name:=Image"
+	SearchButton="class:=btn btn-primary"
+
+
+
+'**********************************************************************************
+
+'ADD TO CART
+Dim abBrowser,abPage
+Dim y,z,curDate,b,p
+
+Set CartBrowser=Browser("name:=Samsung .*")
+Set CartPage=Page("title:=Samsung .*")
+
+'cart
+	cartStatus="xpath:=//DIV[@id='content']/DIV[1]/DIV[2]/H1[1]"
+	Availability="innerhtml:=Availability: Out Of Stock"
+	name="xpath:=//DIV[@id=""content""]/DIV[1]/DIV[2]/H1[1]"
+	price="xpath:=//DIV[@id=""content""]/DIV[1]/DIV[2]/UL[2]/LI[1]/H2[1]"
+	buttonCart="html id:=button-cart"
+
+'SuccessMsg
+	successMsg="class:=alert alert-success alert-dismissible"
+	finalCart="class:=btn btn-inverse btn-block btn-lg dropdown-toggle"
+	clickP="xpath:=//header/div[1]/div[1]/div[3]/div[1]/button[1]"
+	checkout="xpath:=//DIV[@id='cart']/UL[1]/LI[2]/DIV[1]/P[1]/A[2]"
+
+'**********************************************************************************
+	
+'CHECKOUT
+	dim AutomationBrowser1
+	dim AutomationPage1
+	set AutomationBrowser1=Browser("name:=Shopping Cart")
+       set AutomationPage1=AutomationBrowser1.Page("title:=Shopping Cart")
+
+	xpath_webtable_sc_6c="xpath:=//DIV[@id='content']/FORM[1]/DIV[1]/TABLE[1]"
+	xpath_webtable_sc_2c="xpath:=//DIV[@id='content']/DIV[2]/DIV[1]/TABLE[1]"
+	xpath_webelement_name="xpath:=//DIV[@id='content']/FORM[1]/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[2]"
+	xpath_webelement_model="xpath:=//DIV[@id='content']/FORM[1]/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[3]"
+	xpath_webelement_unitprice="xpath:=//DIV[@id='content']/FORM[1]/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[5]"
+	xpath_webelement_totalprice="xpath:=//DIV[@id='content']/FORM[1]/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[6]"
+	xpath_webelement_shippingcharge="xpath:=//DIV[@id='content']/DIV[2]/DIV[1]/TABLE[1]/TBODY[1]/TR[2]/TD[2]"
+
+
+'**********************************************************************************
+
+	

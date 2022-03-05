@@ -1,0 +1,9 @@
+﻿
+Public Function Login_openCart
+       URL="https://demo.opencart.com/"
+	SystemUtil.Run "chrome", URL
+End Function
+
+Public Function Close_OpenCart
+      Browser("name:=Your Store").Close
+End Function

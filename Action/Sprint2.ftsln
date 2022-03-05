@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_2021_GA
+Project("") = "OpenCart", "OpenCart\Test.tsp", "A337B25B-87DF-42EB-BF08-44B028D1DD76"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\HP\Desktop\UFT\Sprint2\Action\OpenCart\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		A337B25B-87DF-42EB-BF08-44B028D1DD76.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A337B25B-87DF-42EB-BF08-44B028D1DD76.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A337B25B-87DF-42EB-BF08-44B028D1DD76.Release|Any CPU.Build.0 = Release|Any CPU
+		A337B25B-87DF-42EB-BF08-44B028D1DD76.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
